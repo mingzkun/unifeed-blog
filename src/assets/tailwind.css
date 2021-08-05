@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+#app{
+    @apply min-w-0 sm:min-w-full md:min-w-0 lg:min-w-0 xl:min-w-0 lg:mx-40
+}
+
+.article-container{
+    @apply flex flex-col justify-start p-6
+}
+
+.desc-text{
+    @apply font-medium text-gray-500 text-base
+}
+
+.primary-btn{
+    @apply px-4 py-2 text-sm font-semibold rounded-md bg-primary
+}
+
+.title{
+    @apply font-bold text-black
+}
+
+h1.title{
+    @apply text-3xl 
+}
+
+h2.title{
+    @apply text-sm
+}
+
+p.sub-title{
+    @apply text-sm font-medium text-gray-600
+}
