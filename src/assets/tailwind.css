@@ -10,8 +10,16 @@
     @apply min-w-0 sm:min-w-full md:min-w-0 lg:min-w-0 xl:min-w-0 lg:mx-40
 }
 
+a:hover{
+    @apply text-primary underline
+}
+
 .article-container{
     @apply flex flex-col justify-start p-6
+}
+
+.article-container:hover{ 
+    @apply rounded-lg shadow-xl border
 }
 
 .desc-text{
@@ -19,7 +27,11 @@
 }
 
 .primary-btn{
-    @apply px-4 py-2 text-sm font-semibold rounded-md bg-primary
+    @apply px-6 h-12 text-sm font-semibold rounded-md bg-primary
+}
+
+.primary-btn:hover{
+    @apply text-white ring-4 ring-primary ring-opacity-50
 }
 
 .title{

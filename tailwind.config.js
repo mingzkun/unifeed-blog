@@ -15,7 +15,7 @@ module.exports = {
       sans: ['Manrope', "Sans-serif"],
     },
     colors:{
-      'primary' : 'hsla(27, 100%, 45%,1)',
+      'primary' : 'hsl(36, 100%, 50%)',
       white: colors.white,
       black: colors.black,
       gray: colors.coolGray
